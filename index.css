@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: 99FFFF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  header {
+    background: #c0392b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  .hero-div{
+    display: flex; justify-content: center;
+  }
+ .hero-div img{
+    width: 50%;
+ }
+  #about p{
+    color: #333;
+  }
+  #about p, #about p span{
+    font-size: 1.2rem;
+  }
+  #about p span, #contact p span{
+    color: black;
+    font-weight: 500;
+  }
+  #about h1{
+    margin-top: 0rem; padding-top: 0rem;
+    font-size: 2.25rem;
+  }
+  section {
+    margin: 2rem 0rem; 
+    padding-top: .5rem;
+  }
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  .event-list li {
+    border-left: 4px solid darkred; 
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    font-size: 1.1rem;
+    border-radius: 0px 10px 10px 0px;
+  }
+  .event-list li strong{
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  .event-list li em{
+    float: right;
+    font-weight: 500;
+    font-size: 1.15rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right,orange ,rgb(255, 216, 58)); 
+    color: white;
+    margin-top: .5rem;
+  }
+
+  .todayClass{
+    border: 2px solid orange;
+    background: linear-gradient(to right,orange ,rgb(255, 216, 58)); 
+  }
+ 
+  #contact, #about, #upcoming h2{
+    text-align: center;
+  }
+  #contact iframe{
+    margin-top: 2rem;
+  }
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+    .hero-div img{
+        width: 90%;
+     }
+  }
+
+  @media (max-width: 450px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+    .hero-div img{
+        width: 100%;
+     }
+     #about p, #about p span{
+      font-size: 1.1rem;
+    }
+    #about h1{
+      font-size: 1.75rem;
+    }
+  }
